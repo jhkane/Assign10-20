@@ -6,10 +6,16 @@
 	
 	// make statements regarding value
 	if (newNumber==10)
-		{document.getElementById("result").innerHTML = "Your number is Ten"}
+		{
+			document.getElementById("result").innerHTML = "Your number is Ten"
+		}
 	else if (newNumber<10)
-	{document.getElementById("result").innerHTML = "Your number is less than Ten";}
+	{
+		document.getElementById("result").innerHTML = "Your number is less than Ten";
+	}
 
 	else if (newNumber>10)
-		{document.getElementById("result").innerHTML = "Your number:" +  newNumber + ", is greater than Ten";}
+		{
+			document.getElementById("result").innerHTML = "Your number:" +  newNumber + ", is greater than Ten";
+		}
 	};
